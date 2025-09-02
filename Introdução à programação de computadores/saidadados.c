@@ -7,12 +7,12 @@ int main(){
     //printf("Olá Mundo!\n");
 
     int idade = 33;
-    float altura = 1.60;
+    float altura = 1.6;
     char opcao = 'S';
     char nome[20] = "Jefferson";
 
     printf("A idade do %s é: %d\n", nome, idade);
-    printf("A altura é: %f\n", altura);
+    printf("A altura é: %.2f\n", altura);
     printf("A opção é: %c\n", opcao);
 
     /*
