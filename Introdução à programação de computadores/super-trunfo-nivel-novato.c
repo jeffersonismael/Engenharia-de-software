@@ -4,14 +4,11 @@ int main(){
 
     printf("Desafio Super Trunfo - Cidades Brasileiras - Nível Novato\n");
 
-    char estado1[10], estado2[10], codigoCarta1[3], codigoCarta2[3], cidade1[8], cidade2[8];
+    char estado1[1], estado2[1], cidade1[8], cidade2[8];
     int populacao1, populacao2, pontosTuristicos1, pontosTuristicos2;
     float area1, area2, pib1, pib2;
 
-    printf("Digite o Código da Carta: \n");
-    scanf("%s", &codigoCarta1);
-
-    printf("Digite o Estado: \n");
+    printf("Carta 1:\nDigite o Estado: \n");
     scanf("%s", &estado1);
 
     printf("Digite a Cidade: \n");
@@ -29,14 +26,9 @@ int main(){
     printf("Digite o PIB: \n");
     scanf("%f", &pib1);
 
-    printf("Código da Carta: %s\nCidade: %s\nEstado: %s\n", codigoCarta1, cidade1, estado1);
-    printf("População: %d milhões\nPontos Turísticos: %d\n", populacao1, pontosTuristicos1);
-    printf("Área: %.3f km²\nPIB: %.3f bilhões\n", area1, pib1);
+    printf("Carta 1:\nEstado: %s\nCódigo: %s01\nNome da Cidade: %s\nPopulação: %d milhões\nÁrea: %.2f km²\nPIB: %.2f bilhões de reais\nNúmero de Pontos Turísticos: %d\n", estado1, estado1, cidade1, populacao1, area1, pib1, pontosTuristicos1);
 
-    printf("Digite o Código da Carta: \n");
-    scanf("%s", &codigoCarta2);
-
-    printf("Digite o Estado: \n");
+    printf("Carta 2:\nDigite o Estado: \n");
     scanf("%s", &estado2);
 
     printf("Digite a Cidade: \n");
@@ -54,7 +46,7 @@ int main(){
     printf("Digite o PIB: \n");
     scanf("%f", &pib2);
 
-    printf("Código da Carta: %s\nCidade: %s\nEstado: %s\n", codigoCarta2, cidade2, estado2);
-    printf("População: %d milhões\nPontos Turísticos: %d\n", populacao2, pontosTuristicos2);
-    printf("Área: %.3f km²\nPIB: %.3f bilhões\n", area2, pib2);
+    printf("Carta 2:\nEstado: %s\nCódigo: %s02\nNome da Cidade: %s\nPopulação: %d milhões\nÁrea: %.2f km²\nPIB: %.2f bilhões de reais\nNúmero de Pontos Turísticos: %d\n", estado2, estado2, cidade2, populacao2, area2, pib2, pontosTuristicos2);
+
+    return 0;
 }
