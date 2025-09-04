@@ -18,11 +18,8 @@ int main(){
     printf("Digite seu nome: \n");
     scanf("%s", &nome);
 
-    printf("Nome: %s\n", nome);
+    printf("Nome do aluno: %s - Matrícula: %d\n", nome, matricula);
 
-    printf("Idade: %d\n", idade);
+    printf("Idade: %d - Altura: %.2f\n", idade, altura);
 
-    printf("Matrícula: %d\n", matricula);
-    
-    printf("Altura: %.2f\n", altura);
 }
